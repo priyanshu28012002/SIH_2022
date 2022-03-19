@@ -1,0 +1,100 @@
+<div class="container">
+    <form action="">
+        <h1 class="heading">Your Contact Details</h1>
+        <hr>
+        <link rel="stylesheet" href="login.css">
+        <p>Name: <input type="text" name="name" placeholder="Name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            
+            Male <input type  ="radio" name="gender" id="Male">
+            Female <input type="radio" name="gender" id="Female">
+
+        </p>
+        </fieldset>
+        <p>Caste:
+            <select name="caste" id="caste">
+                <option value="">---Select Caste---</option>
+                <option value="">General</option>
+                <option value="">OBC</option>
+                <option value="">SC</option>
+                <option value="">ST</option>
+            </select>
+        </p>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="6" placeholder="Enter your address"></textarea></p>
+        <p>12th/Diploma Percentage: <input type="text" name="grade" id="grade" placeholder="In percentage"></p>
+    
+        <p>Email:  <input type="email" name="email" id="email" placeholder="abc123@gmail.com"></p>
+        
+        <p>Family Income: <input type="text" name="income" id="income" placeholder="In rupees"></p>
+        <p>Foreign Language if any: <input type="text" name="language" id="language" placeholder="Language"></p>
+        <p>Courses you are looking for:
+            <select name="courses" id="courses">
+                <option value="">---Select Course---</option> <option value="">B.tech</option>
+                <option value="">M.tech</option>
+                <option value="">MBA</option>
+                <option value="">MBBS</option>
+               <option value="">MSC</option>
+               <option value="">BSC</option>
+               <option value="">MA</option>
+               <option value="">BA</option>
+        
+              
+            </select>
+        </p>
+        <input class="button" type="button" value="Submit">
+    </form>
+
+    <style>*{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px 30px;
+        padding: 8px;
+        font-size: 17px;
+    }
+    .container{
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px ;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    fieldset{
+        background-color: #ffff;
+        border: 1px solid #ccc;
+    }
+    
+    .heading{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+        background-color: #4daea1;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .button:hover{
+        background-color: #2ed18a;
+    }
+    </style>
+    </div>
